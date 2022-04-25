@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AprendendoAndroidKotlin</string>
+    <string name="tituloIntroducao">Hora de preparar o crocodilo Dante</string>
+    <string name="descricaoIntroducao">A hora do cafezinho é uma das horas mais importantes do setor, com isso, nada melhor do que realizar uma brincadeira para selecionar o colaborador que irá preparar o "Menor Crocodilo Dante"</string>
+    <string name="btnComecar">Começar</string>
+    <string name="tituloInstrucoes">Como irá funcionar a dinâmica:</string>
+
+    <string name="instrucao_01">1 - Selecione a quantidade de participantes;</string>
+    <string name="instrucao_02">2 - Digite o nome e o número do participante;</string>
+    <string name="instrucao_03">3 - Clique em jogar.</string>
+
+    <string name="selecione">Selecione</string>
+    <string name="dois">Dois</string>
+    <string name="tres">Três</string>
+    <string name="btnDigitarNomeNumero">Digitar Nome/Número</string>
+
+    <string name="Nome">Nome</string>
+    <string name="Numero">Número</string>
+
+    <string name="btnJogar">Jogar</string>
+
+</resources>

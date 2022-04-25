@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaInserirDados">
+
+    <EditText
+        android:id="@+id/primeiroNome"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_alignParentStart="true"
+        android:layout_margin="10dp"
+        android:hint="@string/Nome"
+        />
+
+    <EditText
+        android:id="@+id/primeiroNumero"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="10dp"
+        android:hint="@string/Numero"/>
+
+    <EditText
+        android:id="@+id/segundoNome"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_alignParentStart="true"
+        android:layout_margin="10dp"
+        android:hint="@string/Nome"
+        android:layout_below="@id/primeiroNome"
+        />
+
+    <EditText
+        android:id="@+id/segundoNumero"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="10dp"
+        android:hint="@string/Numero"
+        android:layout_below="@id/primeiroNumero"/>
+
+    <EditText
+        android:id="@+id/terceiroNome"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_alignParentStart="true"
+        android:layout_margin="10dp"
+        android:hint="@string/Nome"
+        android:layout_below="@id/segundoNome"
+        />
+
+    <EditText
+        android:id="@+id/terceiroNumero"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="10dp"
+        android:hint="@string/Numero"
+        android:layout_below="@id/segundoNumero"/>
+
+    <View
+        android:id="@+id/linhaHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_below="@id/terceiroNumero"
+        android:visibility="visible"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="60dp"
+        android:layout_below="@id/linhaHorizontal"
+        android:text="@string/btnJogar"
+        />
+
+
+</RelativeLayout>

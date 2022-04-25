@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaSelecao">
+
+    <ImageView
+        android:id="@+id/logoTelaSelecao"
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:src="@drawable/logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tituloInstrucoes"
+        android:layout_below="@id/logoTelaSelecao"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/black"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:id="@+id/tituloDasInstrucoes"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/instrucao_01"
+        android:layout_below="@id/tituloDasInstrucoes"
+        android:textStyle="normal"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/black"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:id="@+id/instrucao_01"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/instrucao_02"
+        android:layout_below="@id/instrucao_01"
+        android:textStyle="normal"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/black"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:id="@+id/instrucao_02"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/instrucao_03"
+        android:layout_below="@id/instrucao_02"
+        android:textStyle="normal"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/black"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:id="@+id/instrucao_03"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selecione"
+        android:id="@+id/selecione"
+        android:layout_below="@id/instrucao_03"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/black"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/selecione"
+        android:id="@+id/radioButton"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/valorRadioDois"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dois"
+            android:checked="false"/>
+
+        <RadioButton
+            android:id="@+id/valorRadioUm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tres"
+            android:checked="false"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_nome_numero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radioButton"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginEnd="10sp"
+        android:layout_marginBottom="10sp"
+        android:background="@color/marrom"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/btnDigitarNomeNumero"
+        android:textSize="15sp"
+        android:textStyle="normal" />
+</RelativeLayout>
